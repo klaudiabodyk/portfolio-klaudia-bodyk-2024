@@ -1,32 +1,33 @@
-// Import necessary React hooks and GSAP library
 import React, { useEffect } from "react";
 import gsap from "gsap";
 import { Observer } from "gsap/all";
-
-// Import CSS styles and images
 import "./styles/styles.css";
 import rv from "./assets/background/12.jpg";
-import mountains2 from "./assets/background/IMG_4671.jpeg";
-import image3 from "./assets/gradient/9.png";
-import image4 from "./assets/gradient/8.png";
+import mountains from "./assets/background/IMG_4671.jpeg";
+import bg1 from "./assets/gradient/9.png";
+import bg2 from "./assets/gradient/8.png";
+import me from "./assets/hi-its-me.png"
 import Menu from "../menu/Menu";
+import { FaReact } from "react-icons/fa";
+import {BiLogoTypescript} from "react-icons/bi";
+import {SiNestjs, SiRedux} from "react-icons/si";
+import {DiNodejs} from "react-icons/di";
 
-// Define a type for the sections to ensure type safety
 type Section = {
     title: string;
     image: string;
+    additional? : any;
 };
 
-// Define the sections with their titles and corresponding images
 const sections: Section[] = [
-    { title: "Hi, my name is Klaudia", image: mountains2 },
-    { title: "and is nice to meet you", image: image4 },
-    { title: "Welcome on my portfolio", image: image3 },
-    { title: "My tech stack", image: image4 },
+    { title: "Hello, I'm Klaudia", image: mountains },
+    { title: "Software developer with over 3 years of experience", image: bg2, additional: <img src={me}  alt={'me'} className="me-img"/> },
+    { title: "It's nice to meet you", image: bg1 },
+    { title: "My tech stack", image: bg2, additional:<div className="icons-space"> <FaReact /><BiLogoTypescript /> <SiRedux /></div>  },
+    { title: "In progress", image: bg1, additional:<div className="icons-space"> <DiNodejs /> <SiNestjs /></div>  },
     { title: "My hobby", image: rv },
 ];
 
-// Define the Parallax component
 const Parallax = () => {
     // Use the useEffect hook to initialize GSAP when the component mounts
     useEffect(() => {
@@ -110,6 +111,7 @@ const Parallax = () => {
                                 style={{ backgroundImage: `url(${section.image})` }}
                             >
                                 <h2>{section.title}</h2>
+                                <div className={"icons"}>{section.additional}</div>
                             </div>
                         </div>
                     </div>
@@ -119,5 +121,4 @@ const Parallax = () => {
     );
 };
 
-// Export the Parallax component
 export default Parallax;
