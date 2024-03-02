@@ -1,3 +1,5 @@
+https://klaudiabodyk.netlify.app
+
 # My Portfolio
 
 Welcome to my portfolio! This project showcases my skills and experience as a software developer, featuring a parallax effect, a responsive menu, and a section dedicated to my tech stack and ongoing projects.
