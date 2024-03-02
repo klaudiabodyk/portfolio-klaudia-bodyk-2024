@@ -4,18 +4,20 @@ body {
     height: 100vh;
     color: #ffffff;
     background: #000000;
-    font-family: "Euclid Circular A", "Poppins";
+    font-family: Oswald, monospace !important;
 }
 
 h2 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 400;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
     letter-spacing: 32px;
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     position: relative;
     z-index: 2;
+    margin-top: 300px;
 }
 
 section {
@@ -54,6 +56,22 @@ section .bg::before {
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
+
+.icons {
+    z-index: 2;
+    margin-bottom: 200px;
+    & svg {
+        height: 100px;
+        width: 100px;
+        margin-right: 50px;
+    }
+}
+.me-img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
 
 
 

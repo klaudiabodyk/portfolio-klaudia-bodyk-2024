@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Euclid Circular A", "Poppins";
+    font-family: Oswald, monospace;
     color: #f9f9f9;
 }
 
@@ -96,8 +96,11 @@ button {
     width: 88px;
     height: 88px;
     background-image: url("/src/components/menu/assets/menu.svg");
+    background-size: 80px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .burger.open {
@@ -142,7 +145,6 @@ button {
     position: relative;
     color: #f9f9f9;
     font-size: 32px;
-    font-family: "Euclid Circular A";
     padding: 20px 0;
     width: 260px;
     text-decoration: none;
