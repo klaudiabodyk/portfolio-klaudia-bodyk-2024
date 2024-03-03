@@ -71,6 +71,46 @@ section .bg::before {
     width: 400px;
     height: 400px;
 }
+/* Responsive styles */
+@media (max-width: 1024px) {
+    /* Styles for tablets and smaller devices */
+    h2 {
+        font-size: 5vw;
+        margin-top: 200px;
+    }
+
+    .icons svg {
+        height: 80px;
+        width: 80px;
+        margin-right: 25px;
+    }
+
+    .me-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile devices */
+    h2 {
+        font-size: 9vw;
+        margin-top: 150px;
+        letter-spacing: 13px;
+    }
+
+    .icons svg {
+        height: 80px;
+        width: 80px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+    }
+
+    .me-img {
+        width: 200px;
+        height: 200px;
+    }
+}
 
 
 
