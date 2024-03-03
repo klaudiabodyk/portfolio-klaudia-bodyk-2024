@@ -96,7 +96,7 @@ button {
     width: 88px;
     height: 88px;
     background-image: url("/src/components/menu/assets/menu.svg");
-    background-size: 80px;
+    background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 10px;
@@ -167,4 +167,26 @@ button {
 
 .menu a:hover::after {
     transform: scaleX(1);
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    /* Styles for tablets and smaller devices */
+    .menu a {
+        font-size: 24px;
+        padding: 15px 0;
+    }
+    .burger {
+        background-size: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for mobile devices */
+    .menu a {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .burger {
+        background-size: 50px;
+    }
 }

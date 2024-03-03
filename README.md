@@ -25,7 +25,7 @@ Welcome to my portfolio! This project showcases my skills and experience as a so
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/my-portfolio.git
+   git clone https://github.com/klaudiabodyk/portfolio-klaudia-bodyk-2024.git
 
 2. Navigate to the project directory:
    cd my-portfolio
@@ -51,7 +51,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 If you have any questions or feedback, please feel free to contact me:
 
-- GitHub: [@klaudiabodyk](https://github.com/yourusername)
+- GitHub: [@klaudiabodyk](https://github.com/klaudiabodyk)
 - Email: klaudia.bodyk@icloud.com
 - LinkedIn: Klaudia Bodyk(https://www.linkedin.com/in/klaudia-bodyk/)
 
