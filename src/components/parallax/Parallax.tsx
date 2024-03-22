@@ -13,7 +13,6 @@ import {FaJava, FaReact} from "react-icons/fa";
 import {BiLogoTypescript} from "react-icons/bi";
 import {SiNestjs, SiRedux} from "react-icons/si";
 import {DiNodejs} from "react-icons/di";
-import {useTranslation} from 'react-i18next';
 import {RiJavascriptFill} from "react-icons/ri";
 
 const sections: ISection[] = [
@@ -27,7 +26,6 @@ const sections: ISection[] = [
 
 
 const Parallax = () => {
-    const { t } = useTranslation(); // Use the t function for translations
 
     useEffect(() => {
         gsapInit();
