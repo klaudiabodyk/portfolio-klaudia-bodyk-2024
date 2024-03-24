@@ -17,7 +17,7 @@ h2 {
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     position: relative;
     z-index: 2;
-    margin-top: 300px;
+    margin-top: 10%;
 }
 
 section {
@@ -76,7 +76,7 @@ section .bg::before {
     /* Styles for tablets and smaller devices */
     h2 {
         font-size: 5vw;
-        margin-top: 200px;
+        margin-top: 10%;
     }
 
     .icons svg {
@@ -109,9 +109,12 @@ section .bg::before {
     .me-img {
         width: 200px;
         height: 200px;
+        margin-bottom: 20%;
     }
 }
-
+.card-row {
+    display: flex;
+}
 
 
 

@@ -3,7 +3,7 @@ import gsap from "gsap";
 import {Observer} from "gsap/all";
 import "./styles/styles.css";
 import rv from "./assets/background/12.jpg";
-import mountains from "./assets/background/IMG_4671.jpeg";
+import mountains from "./assets/background/copy.jpeg";
 import bg1 from "./assets/gradient/9.png";
 import bg2 from "./assets/gradient/8.png";
 import me from "./assets/hi_its_me.jpg";
@@ -14,6 +14,8 @@ import {BiLogoTypescript} from "react-icons/bi";
 import {SiNestjs, SiRedux} from "react-icons/si";
 import {DiNodejs} from "react-icons/di";
 import {RiJavascriptFill} from "react-icons/ri";
+import Card from "../card/Card";
+import i18n from "../../i18n";
 
 const sections: ISection[] = [
     { title: "hello", image: mountains },
@@ -21,6 +23,12 @@ const sections: ISection[] = [
     { title: "meet", image: bg1 },
     { title: "techStack", image: bg2, additional: <div className="icons-space"> <FaReact /><BiLogoTypescript /> <SiRedux /> <FaJava /> <RiJavascriptFill /></div> },
     { title: "inProgress", image: bg1, additional: <div className="icons-space"> <DiNodejs /> <SiNestjs /></div> },
+    { title: "projects", image: bg1, additional:
+            <div className={"card-row"}>
+                <Card header={i18n.t("ebookRowerowy")} subHeader={i18n.t("shopDescription")} linkTo={'https://ebook-rowerowy.netlify.app/'} linkLabel={i18n.t("checkIt")} />
+                <Card header={i18n.t("manianaa")} subHeader={i18n.t("shopDescription")} linkTo={'https://manianaa.com'} linkLabel={i18n.t("checkIt")}/>
+                <Card header={i18n.t("inProgressPlatform")} subHeader={i18n.t("trainingPlatform")} linkTo={'https://ebook-rowerowy.netlify.app/'} linkLabel={i18n.t("checkIt")}/>
+            </div> },
     { title: "hobby", image: rv },
 ];
 
