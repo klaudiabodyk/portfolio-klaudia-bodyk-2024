@@ -1,4 +1,3 @@
-// i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
@@ -13,6 +12,7 @@ i18n
                     "meet": "It's nice to meet you",
                     "techStack": "My tech stack",
                     "inProgress": "In progress",
+                    "projects": "My projects",
                     "hobby": "My hobby",
                     "contact": "Contact",
                     "github": "GitHub",
@@ -23,6 +23,12 @@ i18n
                     "emailLink": "mailto:klaudia.bodyk@icloud.com",
                     "instagramLink": "https://www.instagram.com/kidianna/",
                     "linkedinLink": "https://www.linkedin.com/in/klaudia-bodyk/",
+                    "ebookRowerowy": "E-book rowerowy",
+                    "shopDescription": "Internet shop lorem ipsum",
+                    "manianaa": "Manianaa.com",
+                    "inProgressPlatform": "IN PROGRESS",
+                    "trainingPlatform": "Training platform",
+                    "checkIt": "Check it"
                 }
             },
         },
