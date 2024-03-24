@@ -15,7 +15,7 @@ import {SiNestjs, SiRedux} from "react-icons/si";
 import {DiNodejs} from "react-icons/di";
 import {RiJavascriptFill} from "react-icons/ri";
 import Card from "../card/Card";
-import i18n from "i18next";
+import i18n from "../../i18n";
 
 const sections: ISection[] = [
     { title: "hello", image: mountains },
