@@ -1,3 +1,6 @@
+still in progress... :-) 
+
+
 https://klaudiabodyk.com
 
 https://klaudiabodyk.netlify.app
