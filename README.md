@@ -1,3 +1,5 @@
+https://klaudiabodyk.com
+
 https://klaudiabodyk.netlify.app
 
 # My Portfolio
