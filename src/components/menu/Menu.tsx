@@ -3,8 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import { useTranslation } from 'react-i18next';
 import { navs } from "./config/menuConfig";
-import "swiper/css";
-import "swiper/css/navigation";
 import "./styles/styles.css";
 
 const Menu = () => {
