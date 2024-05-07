@@ -1,5 +1,5 @@
 import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import {initReactI18next} from 'react-i18next';
 
 i18n
     .use(initReactI18next)
@@ -24,10 +24,13 @@ i18n
                     "instagramLink": "https://www.instagram.com/kidianna/",
                     "linkedinLink": "https://www.linkedin.com/in/klaudia-bodyk/",
                     "ebookRowerowy": "E-book rowerowy",
-                    "shopDescription": "Internet shop lorem ipsum",
+                    "ebookRowerowyDescription": "The homepage of our ebook store. Dive into a plethora of ebooks covering everything from bike maintenance",
+                    "ebookRowerowyShop": "E-book rowerowy - Shop",
+                    "ebookRowerowyShopDescription": "Pedal into a world of cycling knowledge with the online ebook store. Enhance your riding experience!",
                     "manianaa": "Manianaa.com",
-                    "inProgressPlatform": "IN PROGRESS",
-                    "trainingPlatform": "Training platform",
+                    "manianaaDescription": "Embark on a dietary journey with me! Explore the flexible approach to nutrition through our ebook store.",
+                    "calculator": "Calorie Needs Calculator",
+                    "calculatorDescription": "Calculate your calorie needs to determine the appropriate calorie intake for yourself.",
                     "checkIt": "Check it"
                 }
             },

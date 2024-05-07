@@ -8,12 +8,12 @@ body {
 }
 
 h2 {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
     font-weight: 400;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    letter-spacing: 32px;
+    letter-spacing: 20px;
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     position: relative;
     z-index: 2;
@@ -60,20 +60,28 @@ section .bg::before {
 .icons {
     z-index: 2;
     margin-bottom: 200px;
+
     & svg {
         height: 100px;
         width: 100px;
         margin-right: 50px;
     }
 }
+
 .me-img {
     border-radius: 50%;
     width: 400px;
     height: 400px;
 }
-/* Responsive styles */
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media (max-width: 1024px) {
-    /* Styles for tablets and smaller devices */
+
     h2 {
         font-size: 5vw;
         margin-top: 10%;
@@ -112,9 +120,28 @@ section .bg::before {
         margin-bottom: 20%;
     }
 }
-.card-row {
-    display: flex;
+
+@media (max-width: 520px) {
+    h2 {
+        font-size: 9vw;
+        margin-top: 150px;
+        letter-spacing: 13px;
+    }
+
+    .icons svg {
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+    }
+
+    .me-img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20%;
+    }
 }
+
 
 
 
