@@ -23,7 +23,7 @@
     width: 200px;
     height: 264px;
     border-radius: 10px;
-    background: linear-gradient(-45deg, #ff0099 0%, #000c3f 100% );
+    background: linear-gradient(-45deg, #ff0099 0%, #000c3f 100%);
     z-index: -10;
     pointer-events: none;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -34,19 +34,19 @@
     z-index: -1;
     position: absolute;
     inset: 0;
-    background: linear-gradient(-45deg, #ff0099 0%, #000c3f 100% );
+    background: linear-gradient(-45deg, #ff0099 0%, #000c3f 100%);
     transform: translate3d(0, 0, 0) scale(0.95);
     filter: blur(20px);
 }
 
 .heading {
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase !important;
+    font-weight: 500;
 }
 
 .card p:not(.heading) {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .card p:last-child {
@@ -61,4 +61,41 @@
 .card:hover::before {
     transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
 }
+
+a {
+    text-decoration: none !important;
+}
+
+
+@media (min-width: 421px) and (max-width: 895px) {
+    .card {
+        width: 160px;
+        height: 230px;
+        margin: 20px;
+        padding: initial;
+    }
+
+    .card::before {
+        width: 160px;
+        height: 220px;
+        padding: initial;
+
+    }
+
+    p {
+        font-size: 13px !important;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 894px) and (max-width: 1190px) {
+    .card {
+        width: 180px;
+        height: 220px;
+        margin: 20px;
+        padding: initial;
+    }
+}
+
+
 
