@@ -1,6 +1,3 @@
-still in progress... :-) 
-zmiany
-
 https://klaudiabodyk.com
 
 https://klaudiabodyk.netlify.app
